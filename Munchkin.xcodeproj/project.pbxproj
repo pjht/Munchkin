@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F60F50F52041EB7C001D861C /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F50F42041EB7C001D861C /* Ability.swift */; };
+		F668975F204217D900D60FE4 /* WeaponKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F668975E204217D900D60FE4 /* WeaponKind.swift */; };
+		F69E99782040D40900053141 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E99772040D40900053141 /* Card.swift */; };
+		F69E997A2040D4AD00053141 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E99792040D4AD00053141 /* CardType.swift */; };
+		F69E997C2040D53300053141 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E997B2040D53300053141 /* Side.swift */; };
+		F69E997E2040D81000053141 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E997D2040D81000053141 /* Global.swift */; };
+		F6E73F7D2040E3FC005C6A28 /* CardSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E73F7C2040E3FC005C6A28 /* CardSelectController.swift */; };
+		F6EEFA112041C9F4006EA9A6 /* AffectsSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EEFA102041C9F4006EA9A6 /* AffectsSelectController.swift */; };
+		F6F931AC203F067100B50CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F931AB203F067100B50CAC /* AppDelegate.swift */; };
+		F6F931AE203F067100B50CAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F931AD203F067100B50CAC /* ViewController.swift */; };
+		F6F931B0203F067100B50CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F931AF203F067100B50CAC /* Assets.xcassets */; };
+		F6F931B3203F067100B50CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F931B1203F067100B50CAC /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F60F50F42041EB7C001D861C /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
+		F668975E204217D900D60FE4 /* WeaponKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponKind.swift; sourceTree = "<group>"; };
+		F69E99772040D40900053141 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F69E99792040D4AD00053141 /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		F69E997B2040D53300053141 /* Side.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Side.swift; sourceTree = "<group>"; };
+		F69E997D2040D81000053141 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		F6E73F7C2040E3FC005C6A28 /* CardSelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectController.swift; sourceTree = "<group>"; };
+		F6EEFA102041C9F4006EA9A6 /* AffectsSelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffectsSelectController.swift; sourceTree = "<group>"; };
+		F6F931A8203F067100B50CAC /* Munchkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munchkin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F931AB203F067100B50CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6F931AD203F067100B50CAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6F931AF203F067100B50CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6F931B2203F067100B50CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6F931B4203F067100B50CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F931B5203F067100B50CAC /* Munchkin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Munchkin.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6F931A5203F067100B50CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6F9319F203F067100B50CAC = {
+			isa = PBXGroup;
+			children = (
+				F6F931AA203F067100B50CAC /* Munchkin */,
+				F6F931A9203F067100B50CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6F931A9203F067100B50CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F931A8203F067100B50CAC /* Munchkin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F931AA203F067100B50CAC /* Munchkin */ = {
+			isa = PBXGroup;
+			children = (
+				F6F931AB203F067100B50CAC /* AppDelegate.swift */,
+				F6F931AD203F067100B50CAC /* ViewController.swift */,
+				F6E73F7C2040E3FC005C6A28 /* CardSelectController.swift */,
+				F6EEFA102041C9F4006EA9A6 /* AffectsSelectController.swift */,
+				F6F931AF203F067100B50CAC /* Assets.xcassets */,
+				F6F931B1203F067100B50CAC /* Main.storyboard */,
+				F6F931B4203F067100B50CAC /* Info.plist */,
+				F6F931B5203F067100B50CAC /* Munchkin.entitlements */,
+				F69E99772040D40900053141 /* Card.swift */,
+				F69E997D2040D81000053141 /* Global.swift */,
+				F69E997B2040D53300053141 /* Side.swift */,
+				F69E99792040D4AD00053141 /* CardType.swift */,
+				F60F50F42041EB7C001D861C /* Ability.swift */,
+				F668975E204217D900D60FE4 /* WeaponKind.swift */,
+			);
+			path = Munchkin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6F931A7203F067100B50CAC /* Munchkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F931B8203F067100B50CAC /* Build configuration list for PBXNativeTarget "Munchkin" */;
+			buildPhases = (
+				F6F931A4203F067100B50CAC /* Sources */,
+				F6F931A5203F067100B50CAC /* Frameworks */,
+				F6F931A6203F067100B50CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Munchkin;
+			productName = Munchkin;
+			productReference = F6F931A8203F067100B50CAC /* Munchkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6F931A0203F067100B50CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Peter Terpstra";
+				TargetAttributes = {
+					F6F931A7203F067100B50CAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F6F931A3203F067100B50CAC /* Build configuration list for PBXProject "Munchkin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6F9319F203F067100B50CAC;
+			productRefGroup = F6F931A9203F067100B50CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6F931A7203F067100B50CAC /* Munchkin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6F931A6203F067100B50CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F931B0203F067100B50CAC /* Assets.xcassets in Resources */,
+				F6F931B3203F067100B50CAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6F931A4203F067100B50CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EEFA112041C9F4006EA9A6 /* AffectsSelectController.swift in Sources */,
+				F60F50F52041EB7C001D861C /* Ability.swift in Sources */,
+				F6F931AE203F067100B50CAC /* ViewController.swift in Sources */,
+				F69E997A2040D4AD00053141 /* CardType.swift in Sources */,
+				F69E997C2040D53300053141 /* Side.swift in Sources */,
+				F668975F204217D900D60FE4 /* WeaponKind.swift in Sources */,
+				F69E997E2040D81000053141 /* Global.swift in Sources */,
+				F6E73F7D2040E3FC005C6A28 /* CardSelectController.swift in Sources */,
+				F69E99782040D40900053141 /* Card.swift in Sources */,
+				F6F931AC203F067100B50CAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6F931B1203F067100B50CAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F931B2203F067100B50CAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6F931B6203F067100B50CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6F931B7203F067100B50CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F6F931B9203F067100B50CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Munchkin/Munchkin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Munchkin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peterterpstra.Munchkin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F6F931BA203F067100B50CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Munchkin/Munchkin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Munchkin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peterterpstra.Munchkin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6F931A3203F067100B50CAC /* Build configuration list for PBXProject "Munchkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F931B6203F067100B50CAC /* Debug */,
+				F6F931B7203F067100B50CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F931B8203F067100B50CAC /* Build configuration list for PBXNativeTarget "Munchkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F931B9203F067100B50CAC /* Debug */,
+				F6F931BA203F067100B50CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6F931A0203F067100B50CAC /* Project object */;
+}
